@@ -26,7 +26,7 @@ export default defineConfig({
         changeOrigin: true,
         // Se as rotas estiverem em routes/web.php (sem o prefixo /api),
         // descomente a linha abaixo para tirar o /api antes de repassar:
-        rewrite: (path) => path.replace(/^\/api/, ''),
+      rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },
